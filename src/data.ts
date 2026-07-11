@@ -16,7 +16,7 @@ export interface SkillGroup {
 export const myInfo = {
   name: "Dawit Elias", 
   role: "Full-Stack Software Engineer",
-  status: "Open to Core Engineering Roles",
+  status: "Open to Full-Stack Engineering Roles",
   bio: "Specializing in building robust, high-performance web systems using React, TypeScript, and Tailwind CSS. Cultivating a deep architectural focus on type-safe microservices and relational database designs using Nest.js and PostgreSQL.",
   githubUrl: "https://github.com",
   linkedinUrl: "https://linkedin.com", 
