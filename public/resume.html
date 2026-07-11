@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawit Elias - Resume</title>
+    <style>
+        body { 
+            font-family: monospace; 
+            max-width: 750px; 
+            margin: 40px auto; 
+            padding: 20px; 
+            color: #1e293b; 
+            background: #fafafa; 
+            line-height: 1.5; 
+        }
+        .resume-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+        }
+        h1 { margin-bottom: 5px; font-size: 26px; font-weight: 900; letter-spacing: -0.5px; color: #0f172a; }
+        .role { color: #0d9488; font-weight: bold; margin-bottom: 16px; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .contact-info { font-size: 12px; color: #475569; margin-bottom: 25px; border-bottom: 1px solid #f1f5f9; padding-bottom: 15px; }
+        .contact-info a { color: #0d9488; text-decoration: none; }
+        .contact-info a:hover { text-decoration: underline; }
+        
+        h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 1.5px; color: #94a3b8; border-bottom: 1px solid #e2e8f0; padding-bottom: 4px; margin-top: 30px; margin-bottom: 15px; font-weight: 800; }
+        
+        .entry { margin-bottom: 20px; }
+        .entry-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 3px; }
+        .title { font-weight: bold; font-size: 14px; color: #0f172a; }
+        .subtitle { font-size: 12px; color: #475569; font-weight: 600; }
+        .date { font-size: 11px; color: #94a3b8; font-weight: 500; }
+        .details { font-size: 12px; color: #334155; margin: 4px 0; }
+        .tech { color: #0d9488; font-size: 11px; font-weight: 600; }
+        
+        .print-container { max-width: 750px; margin: 0 auto 15px auto; display: flex; justify-content: flex-end; }
+        .print-btn { background: #0d9488; color: white; border: none; padding: 8px 16px; font-family: monospace; font-size: 12px; font-weight: bold; border-radius: 8px; cursor: pointer; transition: background 0.2s; }
+        .print-btn:hover { background: #0f766e; }
+        
+        @media print { 
+            .print-container { display: none; } 
+            body { margin: 0; padding: 0; background: white; } 
+            .resume-card { border: none; padding: 0; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="print-container">
+        <button class="print-btn" onclick="window.print()">📥 Print / Save as PDF</button>
+    </div>
+
+    <div class="resume-card">
+        <!-- IDENTITY SEGMENT -->
+        <header>
+            <h1>Dawit Elias</h1>
+            <div class="role">Full-Stack Software Engineer</div>
+            <div class="contact-info">
+                <span>✉️ eliasdawit439@gmail.com</span> | 
+                <span>🔗 <a href="https://github.com" target="_blank">github.com_profile</a></span> | 
+                <span>💼 <a href="https://linkedin.com
+                " target="_blank">linkedin.com_profile</a></span>
+            </div>
+        </header>
+
+        <!-- TECHNICAL SKILLSET -->
+        <section>
+            <h2>Technical Skillset</h2>
+            <div class="entry-header">
+                <div class="details"><strong>Frontend Architecture:</strong> React 19, TypeScript, Tailwind CSS v4, shadcn/ui, Next.js</div>
+            </div>
+            <div class="entry-header">
+                <div class="details"><strong>Backend & Databases:</strong> Node.js, Express.js, Nest.js, PostgreSQL, MongoDB NoSQL</div>
+            </div>
+        </section>
+
+        <!-- PROFESSIONAL EXPERIENCE -->
+        <section>
+            <h2>Professional Experience</h2>
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="title">Omo Bank</div>
+                    <div class="date">2 Months (Internship)</div>
+                </div>
+                <div class="subtitle">Software Engineering & Networking Intern</div>
+                <p class="details">Contributed directly to local internal website development initiatives while managing and configuring localized network architectures to ensure high-uptime data connectivity across systems.</p>
+                <div class="tech">Tools: Web Development primitives • Systems Infrastructure • Networking Core</div>
+            </div>
+        </section>
+
+        <!-- ACADEMIC MATRIX & CREDENTIALS -->
+        <section>
+            <h2>Education & Credentials</h2>
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="title">Hawassa University</div>
+                    <div class="date">2020 - 2023</div>
+                </div>
+                <div class="subtitle">Bachelor of Science in Computer Science</div>
+                <p class="details">Acquired advanced core competencies in data structures, database design principles, algorithms, and modular object-oriented programming frameworks.</p>
+            </div>
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="title">Udacity.com</div>
+                    <div class="date">2024</div>
+                </div>
+                <div class="subtitle">Data Science Professional Certification</div>
+                <p class="details">Completed rigorous, fast-paced programmatic specialization focusing on functional datasets, statistical analysis, and client-side data filtering models.</p>
+            </div>
+        </section>
+
+        <!-- ENGINEERING PIPELINE -->
+        <section>
+            <h2>Engineering Pipeline</h2>
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="title">EthioAcademy Mobile App</div>
+                    <div class="date">In Development</div>
+                </div>
+                <p class="details">Engineering a cross-platform mobile learning management system featuring offline video caching architecture, progressive localized data synchronization, and student assessment workflows.</p>
+                <div class="tech">Technologies: React Native • TypeScript • Nest.js • PostgreSQL • Tailwind CSS</div>
+            </div>
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="title">HabeshaCrop - AgriTech Logistics Engine</div>
+                    <div class="date">In Development</div>
+                </div>
+                <p class="details">Designing a high-throughput supply chain marketplace mapping rural Ethiopian farm yields directly to regional distributors using advanced GIS spatial querying and automated inventory trackers.</p>
+                <div class="tech">Technologies: Node.js • Express.js • MongoDB • TypeScript • PostgreSQL</div>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
