@@ -45,20 +45,22 @@ export default function App() {
     <div className="min-h-screen bg-[#11161f] text-slate-200 font-sans antialiased selection:bg-teal-500 selection:text-slate-950 pb-16">
       
       {/* HEADER TOP NAVBAR */}
+            {/* HEADER TOP NAVBAR */}
       <header className="w-full bg-[#1e2530]/80 backdrop-blur-md border-b border-[#2d3748]/40 sticky top-0 z-50">
-        <div className="max-w-4xl mx-auto px-6 h-14 flex items-center justify-between">
-          <div className="flex items-center gap-2 font-mono text-xs font-bold text-teal-400 tracking-wider">
-            <Code className="h-4 w-4" />
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 h-14 flex flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-1.5 font-mono text-[10px] sm:text-xs font-bold text-teal-400 tracking-wider shrink-0">
+            <Code className="h-3.5 w-3.5" />
             <span>PORTFOLIO_CORE</span>
           </div>
-          <nav className="flex items-center gap-6 text-xs font-medium text-slate-400">
-            <a href="#matrix" className="hover:text-white transition-colors">Identity</a>
-            <a href="#projects" className="hover:text-white transition-colors">Pipeline</a>
-            <a href="#skills" className="hover:text-white transition-colors">Skills</a>
-            <a href="#contact" className="hover:text-white transition-colors">Contact</a>
+          <nav className="flex items-center gap-3 sm:gap-6 text-[10px] sm:text-xs font-medium text-slate-400 overflow-x-auto no-scrollbar py-1">
+            <a href="#matrix" className="hover:text-white transition-colors shrink-0">Identity</a>
+            <a href="#projects" className="hover:text-white transition-colors shrink-0">Pipeline</a>
+            <a href="#skills" className="hover:text-white transition-colors shrink-0">Skills</a>
+            <a href="#contact" className="hover:text-white transition-colors shrink-0">Contact</a>
           </nav>
         </div>
       </header>
+
 
       {/* CORE WORKSPACE SPACE CONTAINER */}
       <main className="max-w-3xl mx-auto px-6 pt-10 space-y-12">
