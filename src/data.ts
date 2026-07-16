@@ -39,10 +39,11 @@ export const skillsData: SkillGroup[] = [
 export const projectsData: Project[] = [
   {
     id: 1,
-    title: "EthioAcademy Mobile App (In Development)",
-    description: "Engineering a cross-platform mobile learning management system designed for localized educational delivery. Features include offline video caching architecture, progressive localized synchronization, and interactive student assessment modules.",
-    technologies: ["React Native", "TypeScript", "Nest.js", "PostgreSQL", "Tailwind CSS"],
-    githubUrl: "https://github.com/ethio-academy",
+    title: "Ethio Academy Hub",
+    description: "A full-stack localized educational gateway and timed examination simulator built for secondary students in Ethiopia. Features include client-side session persistence, multi-track dynamic curriculum layouts, a verified directory connecting students with private home tutor networks, and responsive global theme toggle configuration systems.",
+    technologies: ["Next.js 15", "TypeScript", "React", "Shadcn UI", "Tailwind CSS"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://ethio-academy-six.vercel.app/", //  my actual live Vercel link is now plugged in!
     featured: true,
   },
   {
