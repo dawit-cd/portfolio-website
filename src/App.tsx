@@ -85,18 +85,18 @@ export default function App() {
     setStatus('sending');
 
     try {
-      const response = await fetch(`https://formspree.io{myInfo.formspreeId}`, {
-        method: 'POST',
-        headers: { 
-          'Content-Type': 'application/json',
-          'Accept': 'application/json' 
-        },
-        body: JSON.stringify({
-          name: formState.name,
-          email: formState.email,
-          message: formState.message,
-        }),
-      });
+     const response = await fetch(`https://formspree.io/${myInfo.formspreeId}`, {
+  method: 'POST',
+  headers: { 
+    'Content-Type': 'application/json', 
+    'Accept': 'application/json' 
+  },
+  body: JSON.stringify({
+    name: formState.name,
+    email: formState.email,
+    message: formState.message,
+  }),
+});
 
       if (response.ok) {
         setStatus('success');
